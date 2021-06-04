@@ -20,12 +20,12 @@ int main()
    fprintf(fptr,"%d",num);
    fclose(fptr);
    
-   //write
+ 
    
      if ((fptr = fopen("C:\\program.txt","r")) == NULL){
        printf("Error! opening file");
 
-       // Program exits if the file pointer returns NULL.
+     
        exit(1);
    }
 
